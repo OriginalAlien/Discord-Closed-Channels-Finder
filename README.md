@@ -89,8 +89,11 @@ More advanced filtering (like further fetching information for each user) could 
 - LTC: LKoseEiENqnYo9qpgVMWGUoXDQhYaDqz8X  
 - ETH: 0xf124225bb66acba45bDC5b89511Cc10044b5214D
 
-and thanks to chatgpt for generating this <3
+and thanks to chatgpt for generating this <3  
 
-<!--  
-tags: discord, discord dm, discord closed dm, discord user lookup, discord id finder, discord cache, discord localStorage, discord affinity, discord tool, discord js, discord forgot, discord message finder, discord friends, discord blocked, discord closed, discord closed channel, discord closed threads
--->
+---
+
+Tags (ignore)  
+<sub> 
+discord, discord dm, discord closed dm, discord closed thread, discord user lookup, discord user recovery, discord id finder, discord affinity, discord cache, discord localstorage, discord dm history, discord contact finder, discord friend finder, discord utility, discord web tool, discord javascript 
+</sub>
