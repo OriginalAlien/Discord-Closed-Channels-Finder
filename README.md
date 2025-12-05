@@ -68,7 +68,7 @@ Discord locally stores a “user affinity” cache, which tracks:
 - Who you recently messaged  
 - Who you VC with  
 - Whether you are friends  
-- Other interaction metrics (which aren't used)
+- Other interaction metrics (which aren't used in this tool)
 
 This data lives in your browser’s `localStorage` under:
 
