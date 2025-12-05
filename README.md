@@ -8,7 +8,7 @@ This tool tries to helps you recover that information using Discord’s local af
 ## Notes
 - This tool is **Web based** and **CLI-based** and currently has no plans for a GUI version.  
 - It does **not** include features to help further narrow down users.  
-- The project is **open source** — feel free to modify or extend it.
+- The project is **open source** — feel free to modify or extend it (just don't resell it lol).
 
 ---
 
