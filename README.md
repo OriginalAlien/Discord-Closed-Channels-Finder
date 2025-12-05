@@ -68,7 +68,7 @@ Discord locally stores a “user affinity” cache, which tracks:
 - Who you recently messaged  
 - Who you VC with  
 - Whether you are friends  
-- Other interaction metrics
+- Other interaction metrics (which aren't used)
 
 This data lives in your browser’s `localStorage` under:
 
@@ -82,7 +82,7 @@ This helps you identify closed DM partners using meaningful patterns such as:
 - Frequent conversation  
 - Frequent VC activity
 
-More advanced filtering (like further fetching information for each user) could be added, but there are no plans to do so as of now (feel free to modify).
+More advanced filtering (like further fetching information for each user) could be added, but there are no plans to do so as of now (feel free to modify to do so, as it is open-sourced).
 
 ###### Donate to Support my work
 - BTC: bc1ql2s7zk55r9ekafr39wrwtvnsjxynhlwjzd7qpp  
