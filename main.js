@@ -9,8 +9,8 @@ let uasV2_userAffinities = uasV2_state["userAffinities"];
 let uasV2_lastFetched = uasV2_state["lastFetched"]
 
 // Build + parse formattedUserAffinities dictionary
-console.log(`Parsing cached UserAffinities data... 
-Last fetched: ${new Date(uasV2_lastFetched).toLocaleString()} | (Unix Time: ${uasV2_lastFetched})
+console.log(`🔎 Parsing cached UserAffinities data... 
+Cache last updated: ${new Date(uasV2_lastFetched).toLocaleString()} | (Unix Time: ${uasV2_lastFetched})
 `);
 
 let formattedUserAffinities = {};
@@ -30,7 +30,7 @@ function buildRankedLists(rankKey) {
         .sort((a, b) => formattedUserAffinities[a][rankKey] - formattedUserAffinities[b][rankKey])
         .map(userId => ({ userId, ...formattedUserAffinities[userId] }));
 
-    const formatted = sorted.map(u => `<@${u.userId}> | isFriend: ${u.isFriend} | userId: ${u.userId}`);
+    const formatted = sorted.map(u => `<@${u.userId}> | ${rankKey}: ${u[rankKey]} | isFriend: ${u.isFriend} | userId: ${u.userId}`);
     return { sorted, formatted };
 }
 
@@ -54,6 +54,6 @@ You can now type the following variables in the console to view users you've int
 
 (All lists are sorted from highest relevance: top = most recent/frequent, bottom = least recent/frequent)
 
-Need help? Look at the GitHub!
+😕 Need help? Look at the GitHub!
 https://github.com/OriginalAlien/Discord-Closed-Messages-Finder
 `);
